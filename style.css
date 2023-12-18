@@ -1,0 +1,53 @@
+body{
+    background-color: #17181B;
+    color: #fff;
+    
+}
+.navbar {
+    height: 55px;
+    background-color: #6b63e3 !important;
+    z-index: 999;
+}
+.navbar ul li a{
+    color: #fff;
+}
+.main-content {
+   height: calc( 55px - 100vh);
+   padding-top: 60px;
+   z-index: -999;
+}
+
+.front-img {
+    height: 510px;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.auto-type {
+    border-right: .1em solid #fff;
+    width: 16.5em;
+    width: 15ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 7s steps(21, end),
+        blink-caret .5s step-end infinite alternate;
+        font-family: 'Kavoon', sans-serif;
+        font-weight: 600;
+        font-size: 3rem;
+    
+}
