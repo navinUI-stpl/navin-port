@@ -62,3 +62,17 @@ body{
 .progress-bar{
     background-color: #ff00009c;
 }
+.card{
+    background-color: transparent !important;
+    border: 1px solid #fff;
+    color: white !important;
+}
+.card p{
+  font-size: 0.85rem;
+}
+.card h4{
+  font-size: 0.95rem;
+}
+.cara-card{
+padding: 50px;
+}
