@@ -76,3 +76,15 @@ body{
 .cara-card{
 padding: 50px;
 }
+.accordion-button:not(.collapsed),
+button.accordion-button.collapsed {
+    background-color: #17181B;
+    color: white;
+    box-shadow: none !important;
+    border: 1px solid #fff;
+}
+.accordion-body {
+    background-color: #17181B !important;
+    color: white !important;
+    border: 1px solid  white !important;
+}
